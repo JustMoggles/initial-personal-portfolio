@@ -27,7 +27,7 @@ header {
 
 h1 {
   color: #dba8b7;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 nav {
@@ -43,18 +43,58 @@ ul {
 
 li a {
   text-decoration: none;
+  font-size: 20px;
   padding: 10px;
   color: white;
-  border-bottom: 3px solid #dba8b7;
+  border-bottom: 3px dotted #dba8b7;
 }
 
 li a:hover {
   color: bisque;
 }
 
-h3 {
+h2 {
   padding: 0px 0px 20px 20px;
   color: antiquewhite;
+  font-size: large;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 300px;
+  color: #22202d;
+  padding-right: 20px;
+  text-align: end;
+  border-right: 2px dotted #a9a1ce;
+}
+
+#about h3 {
+  padding-left: 60px;
+}
+
+#work h3 {
+  padding-left: 70px;
+}
+
+#contact h3 {
+  padding-left: 33px;
+}
+
+.page-wrapper {
+  margin: 30px;
+  align: center;
+}
+
+.page-wrapper p {
+  margin-left: 30px;
+}
+
+#about,
+#work,
+#contact {
+  display: flex;
+  align: center;
+  margin: 30px 30px 30px 60px;
 }
 
 h1,
